@@ -1,0 +1,7 @@
+<%= facade.member_count %> Members
+<% facade.members.each do |member| %>
+<ul class="member">
+  <li class=""><%= member.name %></li>
+  <li class="role"><%= member.id %></li>
+</ul>
+<% end %>
